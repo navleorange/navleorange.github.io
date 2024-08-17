@@ -209,7 +209,7 @@ export default{
             age: 0,
             birthDay: {
                 day:18,
-                month: 7,
+                month: 7 - 1,
                 year: 2001,
             },
         };
@@ -223,7 +223,7 @@ export default{
             let today = new Date();
             this.age = today.getFullYear() - birthDayDate.getFullYear();
             let threshold_day = new Date(today.getFullYear(), this.birthDay.month, this.birthDay.day);
-
+            
             if(today < threshold_day){
                 this.age--;
             }
