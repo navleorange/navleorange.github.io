@@ -25,7 +25,8 @@
     "yarn": "^1.22.22"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.8"
+    "@nuxt/types": "^2.15.8",
+    "dayjs-nuxt": "^2.1.9"
   },
   "main": "index.js",
   "repository": "git@github.com:navleorange/portfolio.git",
