@@ -4,13 +4,14 @@ export default defineNuxtConfig({
   // Global page headers: https://go.nuxtjs.dev/config-head
 
   ssr: true,
+
   target: "static",
 
   app:{
     baseURL: '',
     // buildAssetsDir: 'assets',
   },
-  
+
   head: {
     title: 'portfolio',
     htmlAttrs: {
@@ -91,4 +92,5 @@ export default defineNuxtConfig({
     },
   },
 
+  compatibilityDate: '2024-08-18',
 })
