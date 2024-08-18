@@ -228,6 +228,9 @@ export default{
             if(today < threshold_day){
                 this.age--;
             }
+
+            console.log(threshold_day);
+
         },
     }
 }
