@@ -229,8 +229,6 @@ export default{
                 this.age--;
             }
 
-            console.log(threshold_day);
-
         },
     }
 }
